@@ -1,2 +1,26 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
+:root {
+  --ion-color-primary: #3880ff;
+  --ion-color-secondary: #3dc2ff;
+  --ion-color-tertiary: #5260ff;
+  --ion-font-family: system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #e2e2e2;
+  text-align: left;
+  font-size: 14px;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
