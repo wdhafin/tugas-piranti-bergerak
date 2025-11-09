@@ -1,0 +1,7 @@
+{
+  "name": "tugas-2-pbergerak",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
